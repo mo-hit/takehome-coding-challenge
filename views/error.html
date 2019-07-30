@@ -1,0 +1,16 @@
+{{ template "header" . }}
+<div class="section">
+  <div class="container">
+    <h1 class="header center">Oh no!</h1>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <p>An error has occurred</p>
+      <p>{{.Message}}</p>
+    </div>
+  </div>
+</div>
+{{ template "footer" . }}

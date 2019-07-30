@@ -1,0 +1,24 @@
+{{ define "footer" }}
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="/js/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="/js/materialize.min.js"></script>
+  <script>
+
+  $(document).ready(function() {
+    $('select').material_select();
+    $(".button-collapse").sideNav();
+    $(".dropdown-button").dropdown();
+  });
+  </script>
+  </body>
+</html>
+{{ end }}
