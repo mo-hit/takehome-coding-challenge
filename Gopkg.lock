@@ -2,62 +2,86 @@
 
 
 [[projects]]
+  digest = "1:56c130d885a4aacae1dd9c7b71cfe39912c7ebc1ff7d2b46083c8812996dc43b"
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
+  pruneopts = ""
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
   version = "v1.1.0"
 
 [[projects]]
   branch = "master"
+  digest = "1:46e5985aad9a54531ab131ad054dc10d2a3db747c70bfa0c31c1c18c1b991350"
   name = "github.com/davidbanham/bandname_go"
   packages = ["."]
+  pruneopts = ""
   revision = "bb6893a852593638fab474ff569d9bdb2c8070bb"
 
 [[projects]]
   branch = "master"
+  digest = "1:d6d6304c3b87fca79b465fcce70d109a95218fefb62f45d699d4f6a5f142ef0f"
   name = "github.com/davidbanham/required_env"
   packages = ["."]
+  pruneopts = ""
   revision = "a84628a4c24414ddb921e4a100dc6656d312ce37"
 
 [[projects]]
   branch = "master"
+  digest = "1:b5c0cf32647c257d9985970b3c9b50479e966331afb02204688ec64322eb2893"
   name = "github.com/dustinkirkland/golang-petname"
   packages = ["."]
+  pruneopts = ""
   revision = "d3c2ba80e75eeef10c5cf2fc76d2c809637376b3"
 
 [[projects]]
+  digest = "1:dbbeb8ddb0be949954c8157ee8439c2adfd8dc1c9510eb44a6e58cb68c3dce28"
   name = "github.com/gorilla/context"
   packages = ["."]
+  pruneopts = ""
   revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
   version = "v1.1.1"
 
 [[projects]]
+  digest = "1:66d63ec7b6035984dced87ad37066e5f4ad277c60234a9d9925537248e983200"
   name = "github.com/gorilla/handlers"
   packages = ["."]
+  pruneopts = ""
   revision = "7e0847f9db758cdebd26c149d0ae9d5d0b9c98ce"
   version = "v1.4.0"
 
 [[projects]]
+  digest = "1:c2c8666b4836c81a1d247bdf21c6a6fc1ab586538ab56f74437c2e0df5c375e1"
   name = "github.com/gorilla/mux"
   packages = ["."]
+  pruneopts = ""
   revision = "e3702bed27f0d39777b0b37b664b6280e8ef8fbf"
   version = "v1.6.2"
 
 [[projects]]
+  digest = "1:256484dbbcd271f9ecebc6795b2df8cad4c458dd0f5fd82a8c2fa0c29f233411"
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
+  pruneopts = ""
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
   version = "v1.0.0"
 
 [[projects]]
+  digest = "1:c587772fb8ad29ad4db67575dad25ba17a51f072ff18a22b4f0257a4d9c24f75"
   name = "github.com/stretchr/testify"
   packages = ["assert"]
+  pruneopts = ""
   revision = "f35b8ab0b5a2cef36673838d662e249dd9c94686"
   version = "v1.2.2"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "7d517d0631fe07a980fb5ef2fe2ff2b409be40530f879b9907b42cc6ed8fab3b"
+  input-imports = [
+    "github.com/davidbanham/bandname_go",
+    "github.com/davidbanham/required_env",
+    "github.com/gorilla/handlers",
+    "github.com/gorilla/mux",
+    "github.com/stretchr/testify/assert",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1

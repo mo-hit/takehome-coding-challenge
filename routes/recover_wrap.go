@@ -2,7 +2,7 @@ package routes
 
 import (
 	"errors"
-	"gopher/config"
+	"github.com/mo-hit/takehome-coding-challenge/config"
 	"log"
 	"net/http"
 	"runtime/debug"

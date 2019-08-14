@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"gopher/models"
+	"github.com/mo-hit/takehome-coding-challenge/models"
 	"net/http"
 	"os"
 

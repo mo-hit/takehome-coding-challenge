@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gopher/config"
-	"gopher/routes"
+	"github.com/mo-hit/takehome-coding-challenge/config"
+	"github.com/mo-hit/takehome-coding-challenge/routes"
 	"log"
 	"net/http"
 	"os"
